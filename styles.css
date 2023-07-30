@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFD1DC;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#character {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.enemy {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: url("Yasuo_0.png") no-repeat center;
+    background-size: cover;
+}
+
+#score {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: #FF69B4;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#timer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #FF69B4;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.warning {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: url("Yasuo_0.png") no-repeat center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.cute-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff88cc;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cute-button:hover {
+    background-color: #ff44aa;
+}
+
+.cute-button:active {
+    background-color: #cc2266;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.beam {
+    position: absolute;
+    width: 5px;
+    height: 60px; 
+    background-color: yellow;
+    transition: all 0.5s;
+}
+
+
+
